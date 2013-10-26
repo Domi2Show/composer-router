@@ -1,0 +1,25 @@
+{
+    "name":             "domi2show/router",
+    "description":      "Regex to Class Router",
+    "keywords":         ["regex", "class", "router"],
+    "homepage":         "http://github.com/domi2show/composer-router",
+    "time":             "2013-10-26",
+    "license":          "GPL",
+    "authors":
+    [
+        {
+            "name":         "Domi2Show",
+            "email":        "domi2show@dev.dpsn.me",
+            "homepage":     "http://dev.dpsn.me",
+            "role":         "Main Developer"
+        }
+    ],
+
+    "autoload":
+    {
+        "psr-0":
+        {
+            "Domi2Show\\Router\\Router": "src/"
+        }
+    }
+}
