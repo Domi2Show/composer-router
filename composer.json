@@ -1,7 +1,7 @@
 {
     "name":             "domi2show/router",
     "description":      "Regex to Class Router",
-    "version":          "1.0.0",
+    "version":          "1.0.1",
     "keywords":         ["regex", "class", "router"],
     "homepage":         "http://github.com/domi2show/composer-router",
     "time":             "2013-10-26",
@@ -24,6 +24,11 @@
         },
 
         "classmap":
+        [
+            "src/Domi2Show/Router/Router.php"
+        ],
+
+        "files":
         [
             "src/Domi2Show/Router/Router.php"
         ]
