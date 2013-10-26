@@ -20,6 +20,11 @@
         "psr-0":
         {
             "Domi2Show\\Router\\Router": "src/"
-        }
+        },
+
+        "classmap":
+        [
+            "src/Domi2Show/Router/Router.php"
+        ]
     }
 }
